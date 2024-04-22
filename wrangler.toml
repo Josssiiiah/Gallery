@@ -3,6 +3,11 @@ name = "gallery"
 compatibility_date = "2024-04-19"
 pages_build_output_dir = "./build/client"
 
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "prod-d1-tutorial"
+database_id = "792a06a0-f662-4a10-927b-c4081a2c0a6b"
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Docs:
 # - https://developers.cloudflare.com/pages/functions/bindings/#environment-variables
